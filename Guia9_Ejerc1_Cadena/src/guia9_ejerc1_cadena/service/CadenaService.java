@@ -105,7 +105,7 @@ public class CadenaService {
         System.out.println("Ingrese un carácter para reemplazar las 'a': ");
         String letra = leer.next();
         String fraseAux = "";
-        
+        //fraseAux = c1.getFrase().replace('a',letra);
         for (int i = 0; i < frase.length(); i++) {
             
             if(frase.substring(i, i+1).equalsIgnoreCase("a")){
